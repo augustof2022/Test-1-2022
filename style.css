@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    align-items:baseline;
+    position:-webkit-sticky;
+    font-family: "Roboto";
+    box-sizing: border-box;
+
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar{
+    float:right;
+    background-color: rgba(175, 182, 182, 0.158);
+    font-size: smaller;
+    padding:0%;
+    list-style-type: none;
+    text-align: center;
+    list-style-type: none;
+    border-spacing: 1.5ch;
+    font-style:normal;
+    color:rgb(53, 66, 78);
+    align-items: center;
+    border-radius: 5px 0px 0px 5px;
+    width: 90px;
+    height: 300px;
+}
+
+.navbar li {
+    justify-content: space-between;
+    overflow-wrap:normal;
+    margin: 80px;
+    margin-left: 25px;
+}
+
+body{
+    text-align: center;
+    align-content: center;
+    height: 100vh;
+    background-image:radial-gradient(rgb(53, 47, 47),rgb(34, 28, 28),rgb(17, 17, 17));
+    font-family: 'Courier New';
+    color:aliceblue;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+}
+
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    align-content: space-between;
+}
+
+.navbar li a:hover{
+    color: rgba(240, 248, 255, 0.432);
+}
+    
+body{
+    display:flex;
+    align-content: center;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width:200px;
+    height: 300px;
+    position:absolute;
+    text-align: center;
+    background-color: rgba(146, 140, 135, 0.137);
+    position:relative;
+    align-content:center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.pagetitle{
+    font-size:x-large;
+}
+
+.copybutton{
+    padding: 9px 25px;
+    background-color: rgb(61, 67, 73);
+    font-weight:lighter;
+    font-size: x-small;
+    font-family:Helvetica;
+    border-radius: 8px;
+    padding: 5px;
+    color: aliceblue;
+    box-shadow: 1px 1px rgba(3, 3, 3, 0.233);
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(61, 67, 73, 0.445);
+}
+
+.navbar li:first-child{
+    margin-top: 15px;
+}
+.navbar li:last-child{
+    margin-top: 25px;
+}
+
+.accountdetailhead{
+    margin-top: 30px;
+    
+}
+.userinput{
+    margin: 10px;
+}
